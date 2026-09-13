@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nadia Westermann — UX/UI Design Portfolio</title>
+  <meta name="description" content="Portfolio of Nadia Westermann, UX/UI Designer. Digital products that stay understandable and accessible even with complex requirements." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="progress"></div>
+
+  <nav class="nav">
+    <a href="#top" class="nav__brand" data-nav><span class="dot"></span> Portfolio<span style="color:var(--ink-soft)">°</span></a>
+    <div class="nav__links">
+      <span class="nav__time">Zurich · —:—</span>
+      <a class="nav__link" href="#projekte" data-nav>Work</a>
+      <a class="nav__link" href="#ueber" data-nav>About</a>
+    </div>
+  </nav>
+
+  <header class="hero wrap" id="top">
+    <h1 class="hero__name">
+      <span class="ln"><span>Nadia</span></span>
+      <span class="ln"><span>Westermann</span></span>
+    </h1>
+
+    <p class="hero__statement">
+      <span class="w">Digital</span> <span class="w">products</span> <span class="w">that</span> <span class="w">stay</span>
+      <span class="w"><em>understandable</em></span> <span class="w">even</span> <span class="w">when</span> <span class="w">the</span>
+      <span class="w">underlying</span> <span class="w">complexity</span> <span class="w">isn't.</span>
+    </p>
+
+    <p class="hero__bio reveal">
+      UX/UI &amp; digital product designer based in Zurich. I turn dense domain knowledge — energy systems,
+      care, accessibility — into interfaces people can actually use, and the flows and information
+      architectures that hold them together.
+    </p>
+
+    <div class="hero__ctas reveal d1">
+      <a class="btn btn--solid" href="#projekte" data-nav>View work <span>→</span></a>
+      <a class="btn" href="#kontakt" data-nav>Get in touch <span>→</span></a>
+    </div>
+
+    <nav class="hero__index reveal d2" id="heroIndex" aria-label="Selected work, quick links"></nav>
+  </header>
+
+  <section class="section projects wrap" id="projekte">
+    <div class="section__head">
+      <div class="eyebrow reveal">Selected Work</div>
+      <span class="section__count reveal">(03) — 2023–today</span>
+    </div>
+    <div class="proj-list"></div>
+  </section>
+
+  <section class="about section" id="ueber">
+    <div class="wrap">
+      <div class="section__head">
+        <div class="eyebrow" style="color:oklch(1 0 0 / 0.6)">About</div>
+        <span class="section__count">002 — Nadia Westermann</span>
+      </div>
+      <div class="about__grid">
+        <div>
+          <p class="about__big reveal">
+            I design <b>digital products</b> with an eye for what lies beneath the surface. I'm
+            interested in how systems, processes and real usage situations connect — and how they
+            come together in a way people understand.
+          </p>
+          <ol class="path reveal d1">
+            <li><span class="path__yr">2025</span><span class="path__t">CAS in User Experience Management<em>Hochschule Luzern / FHZ</em></span></li>
+            <li><span class="path__yr">since 2023</span><span class="path__t">UX/UI Designer<em>VGT, Aarau · Platform &amp; products, energy sector</em></span></li>
+            <li><span class="path__yr">2020–2023</span><span class="path__t">BA Interaction Design<em>ZHdK, Zurich</em></span></li>
+            <li><span class="path__yr">2014–2020</span><span class="path__t">Production, later Head of Print &amp; Signage<em>Hauser und Partner, Dübendorf</em></span></li>
+            <li><span class="path__yr">2007–2011</span><span class="path__t">Visual Merchandiser (Swiss Fed. Dipl.)<em>Pfister, Dübendorf</em></span></li>
+          </ol>
+          <p style="margin-top:30px;font-family:var(--font-mono);font-size:13px;color:oklch(1 0 0 / 0.5);letter-spacing:0.04em">
+            German (native) · English (advanced) · Zurich
+          </p>
+          <div class="hero__ctas" style="margin-top:28px">
+            <a class="btn btn--light" href="#kontakt" data-nav>Get in touch <span>→</span></a>
+          </div>
+        </div>
+        <div class="reveal d1">
+          <div class="about__portrait">
+            <div class="ph" data-label="PORTRAIT · NADIA" style="--accent:var(--a-repose)">
+              <span class="ph__glyph">N</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about__cols about__cols--3">
+        <div class="reveal d1">
+          <h5>Focus areas</h5>
+          <ul>
+            <li>Product Design · UX/UI Design</li>
+            <li>User flows, journeys, processes</li>
+            <li>Wireframes &amp; prototyping</li>
+            <li>AI tools in prototyping</li>
+            <li>Digitalising administrative processes</li>
+            <li>Stakeholder management (internal)</li>
+            <li>Micro-Interactions</li>
+            <li>Information architecture</li>
+            <li>Design System</li>
+          </ul>
+        </div>
+        <div class="reveal d2">
+          <h5>Tools</h5>
+          <ul>
+            <li>Claude Design</li>
+            <li>Claude · ChatGPT</li>
+            <li>Figma</li>
+            <li>Miro · Notion · Jira · Confluence</li>
+            <li>HTML/CSS · VS Code</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="kontakt">
+    <div class="wrap">
+      <span class="footer__cta reveal">Let's build something ↓</span><br />
+      <a class="footer__mail reveal" href="mailto:nadia.west@hispeed.ch">nadia.west@hispeed.ch</a>
+      <div class="footer__row">
+        <div class="footer__socials">
+          <a href="https://www.linkedin.com/in/nadia-westermann" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+        <div class="footer__fine">© 2026 Nadia Westermann · UX/UI Design · Zurich, CH</div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="case" aria-hidden="true"></div>
+
+  <script src="data.js"></script>
+  <script src="js/reveal.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/hero.js"></script>
+  <script src="js/carousel.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/casestudy.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
