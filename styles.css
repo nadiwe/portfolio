@@ -183,10 +183,10 @@ img { display: block; max-width: 100%; }
 .proj-list { border-top: 1px solid var(--line); }
 .proj {
   position: relative; display: grid;
-  grid-template-columns: 48px minmax(0,1fr) auto;
+  grid-template-columns: 40px minmax(0,1fr) auto;
   grid-template-areas: "num name arrow" "num sub cta" "num tags cta";
-  row-gap: 0; align-items: center; gap: clamp(12px,2vw,24px);
-  padding: clamp(14px, 1.8vw, 22px) 6px; border-bottom: 1px solid var(--line);
+  row-gap: 0; align-items: center; gap: clamp(8px,1.2vw,14px);
+  padding: clamp(8px, 1vw, 12px) 6px; border-bottom: 1px solid var(--line);
   isolation: isolate;
 }
 .proj::before {
@@ -202,24 +202,24 @@ img { display: block; max-width: 100%; }
 .proj:hover .proj__tags span { color: #fff; border-color: oklch(1 0 0 / 0.45); }
 .proj:hover .proj__cta { opacity: 1; transform: none; color: #fff; }
 
-.proj__num { grid-area: num; align-self: start; padding-top: 4px; font-family: var(--font-mono); font-size: 12px; color: var(--ink-faint); transition: color .4s; }
+.proj__num { grid-area: num; align-self: start; padding-top: 2px; font-family: var(--font-mono); font-size: 11px; color: var(--ink-faint); transition: color .4s; }
 .proj__name {
   grid-area: name; font-family: var(--font-display); font-weight: 700; letter-spacing: -0.02em;
-  font-size: clamp(20px, 2.4vw, 30px); line-height: 1.1; transition: color .4s;
+  font-size: clamp(16px, 1.6vw, 20px); line-height: 1.1; transition: color .4s;
 }
-.proj__sub { grid-area: sub; font-size: 14px; line-height: 1.5; color: var(--ink-soft); max-width: 62ch; margin-top: 8px; }
-.proj__tags { grid-area: tags; display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-start; margin-top: 10px; }
+.proj__sub { grid-area: sub; font-size: 13px; line-height: 1.45; color: var(--ink-soft); max-width: 62ch; margin-top: 4px; }
+.proj__tags { grid-area: tags; display: flex; gap: 5px; flex-wrap: wrap; justify-content: flex-start; margin-top: 6px; }
 .proj__tags span {
-  font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.05em; text-transform: uppercase;
-  padding: 4px 9px; border: 1px solid var(--line); border-radius: 100px; color: var(--ink-soft);
+  font-family: var(--font-mono); font-size: 9px; letter-spacing: 0.05em; text-transform: uppercase;
+  padding: 3px 8px; border: 1px solid var(--line); border-radius: 100px; color: var(--ink-soft);
   transition: color .4s, border-color .4s; white-space: nowrap;
 }
 .proj__cta {
-  grid-area: cta; text-align: right; margin-top: 10px;
-  font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft);
+  grid-area: cta; text-align: right; margin-top: 6px;
+  font-family: var(--font-mono); font-size: 9px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft);
   opacity: 0; transform: translateX(-6px); transition: opacity .3s var(--ease), transform .3s var(--ease);
 }
-.proj__arrow { grid-area: arrow; align-self: start; font-size: 18px; transition: transform .45s var(--ease), color .4s; }
+.proj__arrow { grid-area: arrow; align-self: start; font-size: 15px; transition: transform .45s var(--ease), color .4s; }
 @media (max-width: 860px) {
   .proj { grid-template-columns: 44px minmax(0,1fr) auto; grid-template-areas: "num name arrow" "num sub sub"; }
   .proj__tags, .proj__cta { display: none; }
