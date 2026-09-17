@@ -150,16 +150,6 @@ img { display: block; max-width: 100%; }
 .hero__bio { margin-top: clamp(24px, 4vh, 40px); max-width: 62ch; font-size: clamp(15px, 1.15vw, 18px); line-height: 1.65; color: var(--ink-soft); text-wrap: pretty; }
 .hero__ctas { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
 
-.hero__index { display: grid; margin-top: clamp(48px, 9vh, 96px); border-top: 1px solid var(--line); }
-.hero__idxRow { all: unset; cursor: pointer; display: grid; grid-template-columns: 34px minmax(0,1fr) 20px; gap: 14px; align-items: baseline; padding: 14px 4px 13px; border-bottom: 1px solid var(--line); transition: background .3s, padding .3s; width: 100%; }
-.hero__idxRow:hover { background: var(--paper-2); padding-left: 12px; }
-.hero__idxRow .n { font-family: var(--font-mono); font-size: 11px; color: var(--ink-faint); }
-.hero__idxRow:hover .n { color: var(--accent); }
-.hero__idxRow .nm { font-family: var(--font-display); font-weight: 500; font-size: 17px; letter-spacing: -0.01em; }
-.hero__idxRow .ct { font-size: 13px; color: var(--ink-soft); line-height: 1.35; grid-column: 2; margin-top: 2px; }
-.hero__idxRow .ar { justify-self: end; font-size: 14px; color: var(--ink-faint); transform: translateX(-4px); transition: transform .3s, color .3s; }
-.hero__idxRow:hover .ar { transform: none; color: var(--accent); }
-
 /* =========================================================================
    Marquee (built, not mounted by default — see README)
    ========================================================================= */
