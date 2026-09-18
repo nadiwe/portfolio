@@ -125,7 +125,7 @@ img { display: block; max-width: 100%; }
    ========================================================================= */
 .hero {
   position: relative; min-height: 0; display: flex; flex-direction: column;
-  justify-content: center; padding-block: clamp(70px, 11vh, 96px) clamp(60px, 12vh, 130px);
+  justify-content: center; padding-block: clamp(70px, 11vh, 96px) clamp(24px, 5vh, 56px);
   overflow: hidden;
 }
 .hero__statement {
