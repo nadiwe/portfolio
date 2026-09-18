@@ -53,9 +53,7 @@
           .join("");
         ui =
           '<div class="carousel__ui">' +
-            '<button class="carousel__nav" data-dir="-1" aria-label="Previous image">←</button>' +
             '<div class="carousel__dots">' + dots + "</div>" +
-            '<button class="carousel__nav" data-dir="1" aria-label="Next image">→</button>' +
             '<span class="carousel__idx">' + String(i + 1).padStart(2, "0") + " / " + String(n).padStart(2, "0") + "</span>" +
           "</div>";
       }
@@ -84,12 +82,6 @@
     container.addEventListener("mouseenter", stopTimer);
     container.addEventListener("mouseleave", startTimer);
     container.addEventListener("click", function (e) {
-      var navBtn = e.target.closest(".carousel__nav");
-      if (navBtn) {
-        goto(i + parseInt(navBtn.getAttribute("data-dir"), 10));
-        startTimer();
-        return;
-      }
       var dot = e.target.closest(".carousel__dot");
       if (dot) {
         goto(parseInt(dot.getAttribute("data-i"), 10));

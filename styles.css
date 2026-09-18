@@ -321,8 +321,6 @@ img { display: block; max-width: 100%; }
 .carousel__slide { position: absolute; inset: 0; opacity: 0; transition: opacity .7s ease; pointer-events: none; }
 .carousel__slide.is-on { opacity: 1; pointer-events: auto; }
 .carousel__ui { display: flex; align-items: center; justify-content: center; gap: 14px; padding-top: 12px; font-family: var(--font-mono); position: relative; }
-.carousel__nav { background: none; border: 1px solid var(--line); border-radius: 999px; width: 30px; height: 30px; color: var(--ink); cursor: pointer; font-size: 13px; line-height: 1; display: grid; place-items: center; transition: border-color .2s, color .2s; }
-.carousel__nav:hover { border-color: var(--accent); color: var(--accent); }
 .carousel__dots { display: flex; gap: 7px; }
 .carousel__dot { width: 7px; height: 7px; border-radius: 999px; border: none; padding: 0; background: var(--line); cursor: pointer; transition: background .2s, transform .2s; }
 .carousel__dot.is-on { background: var(--accent); transform: scale(1.35); }
