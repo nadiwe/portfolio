@@ -26,7 +26,7 @@ window.PROJECTS = [
     sub: "I work in a small development team alongside energy sector specialists. Together we build a B2B digital platform and several products on top of it.",
     teaser: "Complex energy processes — designed to be understood.",
     ndaNote: "For confidentiality reasons I cannot publish product views or project-specific details. I am happy to talk about my role and way of working in more depth in person.",
-    contextTitle: "Starting point",
+    contextTitle: "Work context",
     context: "A B2B digital platform in the energy sector and several products built on top of it — for business customers, plant owners, installers, partners and internal departments.",
     context2: "The products help to",
     contextList: ["simplify energy processes", "make consumption and generation more transparent", "make opportunities around energy assets accessible"],
