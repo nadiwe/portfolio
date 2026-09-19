@@ -75,7 +75,7 @@
 
     html += '<div class="case__body">';
     html +=
-      "<div><h3 class=\"case__h\">Starting point</h3>" +
+      "<div><h3 class=\"case__h\">" + (p.contextTitle || "Starting point") + "</h3>" +
       '<p class="case__p">' + p.context + "</p>" +
       (p.context2 ? '<p class="case__p">' + p.context2 + "</p>" : "") +
       (p.contextList ? bulListHtml(p.contextList) : "") +
