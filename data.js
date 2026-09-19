@@ -62,10 +62,10 @@ window.PROJECTS = [
     approach: "In interviews with seniors we mapped the biggest points of friction. From that came an interaction model that breaks tasks into the smallest comprehensible steps and makes progress visible.",
     approach2: "Large tap targets, high contrast and a calm, encouraging tone form the foundation. In usability testing the flow was tried out right at the kitchen table.",
     learnings: ["Tone is interface: language decides whether people trust it", "Tests in real settings surface problems that stay invisible in the lab", "Step-by-step guidance needs a way back at every point", "Small steps and clear feedback take away the fear of mistakes"],
-    cover: { type: "image", src: "assets/zeiga-illustration.jpg", fit: "contain", bg: "paper" },
+    cover: { type: "image", src: "assets/zeiga-illustration.jpg", fit: "cover" },
     gallery: [
       { type: "image", src: "assets/zeiga-testing.jpg", fit: "cover", label: "Usability test at the kitchen table", span: "wide" },
-      { type: "video", src: "assets/zeiga-app.mp4", fit: "contain", label: "App demo", span: "wide" },
+      { type: "video", src: "assets/zeiga-app.mp4", fit: "cover", label: "App demo", span: "wide" },
     ],
   },
   {
@@ -91,11 +91,11 @@ window.PROJECTS = [
     approach: "A wristband bundles sensors — ECG, gyro, voice, location — into gentle signals. Situations are inferred from the data without constant monitoring.",
     approach2: "In detailed situation flowcharts I played through what happens when, for example, medication is forgotten — from a quiet reminder to escalation to relatives.",
     learnings: ["Escalation levels are a design decision, not a technical one", "Flowcharts make ethical questions discussable", "Fewer data points, interpreted more clearly, beat more sensors", "Relatives are a user group of their own, with their own needs"],
-    cover: { type: "image", src: "assets/repose-wristband.png", fit: "contain", bg: "paper" },
+    cover: { type: "image", src: "assets/repose-wristband.png", fit: "cover" },
     gallery: [
-      { type: "image", src: "assets/repose-wristband.png", fit: "contain", label: "Wristband features", span: "wide" },
-      { type: "image", src: "assets/repose-flowchart.png", fit: "contain", label: "Situation flowchart", span: "wide" },
-      { type: "video", src: "assets/repose-calendar.mp4", fit: "contain", label: "Reminders & calendar", span: "portrait" },
+      { type: "image", src: "assets/repose-wristband.png", fit: "cover", label: "Wristband features", span: "wide" },
+      { type: "image", src: "assets/repose-flowchart.png", fit: "cover", label: "Situation flowchart", span: "wide" },
+      { type: "video", src: "assets/repose-calendar.mp4", fit: "cover", label: "Reminders & calendar", span: "portrait" },
     ],
   },
   {
